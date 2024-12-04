@@ -16,11 +16,11 @@ public class Calculator {
         }
     }
 
-    public int times(int a, int b){
-        return a * b;
-    }
+	  public int times(int a, int b) {
+		  return a * b;
+	  }
 
-    public int solver(){
-        return times(dif(div(8, 2), 1) , add(1, 5));
-    }
+	  public int solver() {
+		  return div(times(dif(add(5, 3), 4), 6), 8);
+	  }
 }
